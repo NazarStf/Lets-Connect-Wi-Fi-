@@ -24,6 +24,6 @@ struct CircleEmitter_Previews: PreviewProvider {
 			Color.black.edgesIgnoringSafeArea(.all)
 			CircleEmitter(isAnimating: .constant(true))
 		}
-			
+		
 	}
 }
