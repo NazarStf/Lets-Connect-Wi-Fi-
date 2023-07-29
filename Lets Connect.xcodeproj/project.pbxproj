@@ -11,6 +11,7 @@
 		7469C5A62A7574D2005EB8B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7469C5A52A7574D2005EB8B7 /* ContentView.swift */; };
 		7469C5A82A7574D4005EB8B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7469C5A72A7574D4005EB8B7 /* Assets.xcassets */; };
 		7469C5AB2A7574D4005EB8B7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7469C5AA2A7574D4005EB8B7 /* Preview Assets.xcassets */; };
+		7469C5B22A7574F6005EB8B7 /* Circles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7469C5B12A7574F6005EB8B7 /* Circles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7469C5A52A7574D2005EB8B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7469C5A72A7574D4005EB8B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7469C5AA2A7574D4005EB8B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7469C5B12A7574F6005EB8B7 /* Circles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				7469C5A32A7574D2005EB8B7 /* Lets_ConnectApp.swift */,
 				7469C5A52A7574D2005EB8B7 /* ContentView.swift */,
+				7469C5B12A7574F6005EB8B7 /* Circles.swift */,
 				7469C5A72A7574D4005EB8B7 /* Assets.xcassets */,
 				7469C5A92A7574D4005EB8B7 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7469C5B22A7574F6005EB8B7 /* Circles.swift in Sources */,
 				7469C5A62A7574D2005EB8B7 /* ContentView.swift in Sources */,
 				7469C5A42A7574D2005EB8B7 /* Lets_ConnectApp.swift in Sources */,
 			);
