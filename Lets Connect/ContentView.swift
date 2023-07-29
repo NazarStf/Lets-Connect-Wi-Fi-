@@ -18,7 +18,7 @@ extension Color {
 
 struct ContentView: View {
 	
-	//MARK:- VARIABLES
+	//MARK: - VARIABLES
 	@State var isAnimating: Bool = false
 	@State var isConnected: Bool = false
 	
@@ -42,12 +42,12 @@ struct ContentView: View {
 			//MARK:- BACKGROUND COLOR
 			Color.wifiBackground.edgesIgnoringSafeArea(.all)
 			
-			//MARK:- EMITTER ANIMATION
+			//MARK: - EMITTER ANIMATION
 			CircleEmitter(isAnimating: $isConnected)
 				.offset(y: 90)
 				.frame(height: 300)
 			
-			//MARK:- CIRCLES AND ARCS
+			//MARK: - CIRCLES AND ARCS
 			ZStack {
 				//small circle
 				Circle().fill(arcColor).scaleEffect(0.075).shadow(color: Color.blue, radius: 5).offset(y: circleOffset)
@@ -91,7 +91,7 @@ struct ContentView: View {
 					arcColor = Color.white
 					shadowColor = Color.blue
 					
-					//MARK:- FIRST TIMER
+					//MARK: - FIRST TIMER
 					Timer.scheduledTimer(withTimeInterval: animationDuration, repeats: true) { arcTimer in
 						if (isAnimating) {
 							circleOffset += Self.animationMovingUpwards ? -15 : 15
@@ -109,7 +109,7 @@ struct ContentView: View {
 						}
 					}
 					
-					//MARK:- TIMER 2
+					//MARK: - TIMER 2
 					Timer.scheduledTimer(withTimeInterval: (animationDuration * 2), repeats: true) { (arcTimer) in
 						if isAnimating {
 							mediumArcOffset += 15
@@ -118,7 +118,7 @@ struct ContentView: View {
 						}
 					}
 					
-					//MARK:- TIMER 3
+					//MARK: - TIMER 3
 					Timer.scheduledTimer(withTimeInterval: (animationDuration) * 3, repeats: true) { (arcTimer) in
 						if (isAnimating) {
 							Self.rotateArc.toggle()
